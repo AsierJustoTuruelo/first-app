@@ -2,9 +2,9 @@ import { Component} from '@angular/core';
 
 /* APUNTES
 
-Para crear property binding se usa [] --> [checked]="registrado"
-Para crear event binding se usa () --> (click)="setUsuarioRegistrado($event)
-Para crear binding bidireccional se usa [()] -->
+Para crear property binding se usa [] --> [checked]="registrado" viaja del ts al html, el valor de la variable en el ts se usa en el html
+Para crear event binding se usa () --> (click)="setUsuarioRegistrado($event) viaja del html al ts, los clicks o cualquier evento se mandan al ts
+Para crear binding bidireccional se usa [()] --> [(ngModel)] = "empresa" viaja del html al ts y del ts al html
 
 */
 
