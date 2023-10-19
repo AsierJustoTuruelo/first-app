@@ -1,1 +1,15 @@
-<p style="text-align: center; font-style: italic;">Soy un empleado!!</p>
+<p style="text-align: center; font-style: italic;">Nombre empleado: {{nombre}}</p>
+<p style="text-align: center; font-style: italic;">Apellido empleado: {{apellido}}</p>
+<p style="text-align: center; font-style: italic;">Nombre del Empleado: {{comprobarEdad(+entradaEdad.value)}}</p>
+<p style="text-align: center; font-style: italic;">Empresa empleado: {{entradaEmpresa.value}}</p>
+
+
+Introduce edad empleado: <input type="text" #entradaEdad (keyup)="0">
+<br>
+<br>
+
+Introduce la empresa: <input type="text" #entradaEmpresa (keyup)="0">
+<br>
+<br>
+
+
